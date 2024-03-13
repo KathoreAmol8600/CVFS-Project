@@ -1,0 +1,78 @@
+*
+{
+    padding: 0cap;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    width: 80%;
+    min-height: 100px;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.heder
+{
+    width: 100%;
+    height: 60px;
+    background-color: lightgray;
+}
+.heder h2
+{
+ padding: 10px;
+ font-size: 2em;
+
+}
+.menu
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(193, 129, 46);
+    margin-top: 10px;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu a
+{
+   color: white;
+   padding: 10px;
+   text-decoration: none;
+   font-size: 1.2em;
+}
+.menu a:hover
+{
+    background-color: rgb(146, 21, 125);
+}
+.slider
+{
+    width: 100px;
+    min-height: 100px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}
+.slider img
+{
+  width: 1000%;
+  height: 100%;
+
+}
+.con
+{
+    width: 100px;
+    height: auto;
+}
+.con p{
+    padding: 10px;
+    text-align: justify;
+    width: 500%;
+  height: 100%;
+}
+.con p::first-letter{
+    font-size: 50px;
+    color: brown;
+    margin-top: 10px;
+}
+.Footer
+{
+
+}

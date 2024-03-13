@@ -1,0 +1,236 @@
+*
+{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Contenar
+{
+    width: 80%;
+    min-height: 100%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 1.5px;
+}
+.Logo_manu
+{
+    width: 100%;
+    height: 140px;
+    border: 2px solid black;
+    padding: 1.5px;
+   
+    /* margin: 1.5px; */
+   
+}
+.Logo_manu h2
+{
+  
+    color: aliceblue;
+}
+.Logo
+{
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    background-color: rgb(6, 1, 1);
+  
+}
+.Logo h2
+{
+
+    color: aliceblue;
+
+    padding: 20px;
+}
+.manu
+{
+    margin-top: 1.5px;
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    background-color: rgb(46, 40, 40);
+    padding-top: 25px;
+}
+.manu a
+{
+  color: rgb(222, 233, 233);
+}
+.but
+{
+   position: relative;
+   float: right;
+   margin-right: 150px;
+   margin-bottom: 10px;
+
+}
+.Main_Heding_Sidebar
+{
+    margin-top: 1.5px;
+    width: 100%;
+    min-height: 100%;
+    border: 2px solid black;
+    padding: 1.5px;
+}
+.main_con_heding
+{
+    width: 65%;
+    height: 628px;
+    border: 2px solid black;
+}
+.main_con
+{
+    margin-top: 1.5px;
+    width: 100%;
+    height: 209px;
+    border: 2px solid black;
+    padding: 1.5px;
+
+}
+.conten
+{
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+}
+.conten h3
+{
+    padding: 10px;
+}
+.conten p{
+    padding: 10px;
+    text-align: justify;
+}
+.heding
+{
+    margin-top: 1.5px;
+    width: 100%;
+    height: 410px;
+    border: 2px solid black;
+    padding: 1.5px;
+}
+.h1
+{
+    margin-top: 1.5px;
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 1.5px;
+}
+.h1_a
+{
+    margin-top: 1.5px;
+    width: 49%;
+    height: 99%;
+    border: 2px solid black;
+    float: left;
+    padding: 10px;
+}
+
+.h1_a p
+{
+   padding-top: 10px;
+}
+.h1_b
+{
+    margin-top: 1.5px;
+    width: 49%;
+    height: 99%;
+    border: 2px solid black;
+    float: right;
+    padding: 10px;
+}
+.h1_b p
+{
+ padding-top: 10px;
+}
+.h2
+{
+    margin-top: 1.5px;
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    padding: 1.5px;
+}
+
+.h2_a
+{
+    margin-top: 1.5px;
+    width: 49%;
+    height: 99%;
+    border: 2px solid black;
+    float: left;
+    padding: 10px;
+}
+.h2_a p
+{
+ padding-top: 10px;
+}
+.h2_b
+{
+    margin-top: 1.5px;
+    width: 49%;
+    height: 99%;
+    border: 2px solid black;
+    float: right;
+    padding: 10px;
+}
+.h2_b p
+{
+ padding-top: 10px;
+}
+
+.side_bar
+{
+    width: 32%;
+    height: 628px;
+    border: 2px solid black;
+    position: relative;
+    float: right;
+    bottom: 628px;
+    padding: 10px;
+   
+}
+.Adver_a
+{
+    margin-top: 20px;
+    width: 48%;
+    height: 90px;
+    border: 2px solid rgb(86, 82, 82);
+    background-color: rgb(201, 197, 197);
+    float: left;
+}
+.Adver_b
+{
+    margin-top: 20px;
+    width: 48%;
+    height: 90px;
+    border: 2px solid black;
+    background-color: rgb(201, 197, 197);
+    float: right;
+}
+.widget
+{
+    width: 100%;
+    height: 195px;
+    border: 2px solid black;
+    margin-top: 350px;
+    padding-top: 20px;
+    padding: 10px;
+}
+.widget UL 
+{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.Footer
+{
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    background-color: rgb(243, 233, 221);
+
+}
+

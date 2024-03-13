@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenar
+{
+    width: 80%;
+    min-height: 100%;
+    border: 2px solid black;
+    margin: auto;
+    padding: 3px;
+    
+}
+.contenar h1
+{
+    text-align: center;
+    color: blue;
+    /* background-color: aquamarine; */
+
+}
+.map
+{
+    margin-top: 60px;
+    width: 100%;
+    border: 2px solid black;
+    /* background-repeat: no-repeat; */
+    /* background-image: url(../img/2699px-Maharashtra_Districts.png) ; */
+    /* background-size: 570px; */
+     
+}
+.map img
+{
+    width: 100%;
+}
+
