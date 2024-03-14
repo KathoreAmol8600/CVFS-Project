@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .box
+        {
+             width: 80%;
+            min-height: 100px;
+            border: 1px solid #000;
+            margin: auto;
+            padding: 20px;
+           
+        }
+        table{
+            width: 700px;
+            height: 200px;
+            border-collapse: collapse;
+            
+        }
+         table,tr,th,td
+        {
+            text-align: center;
+        }
+        img{
+            width: 44px;
+        }
+        th
+        {
+            padding: 20px;
+            background-color: aquamarine;
+            font-size: 30px;
+        }
+
+        table tr:nth-child(odd)
+        {
+            background-color: bisque;
+        }
+        table tr:hover
+        {
+            background-color: aquamarine;
+            
+        }
+        .b {
+            background-color: rgb(239, 213, 152);
+            font-weight:bold;
+           
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+        <center>
+        <table border="2px"> 
+       <tr>
+          <th >id</th>
+          <th >name</th>
+          <th >marks</th>
+          <th>colage</th>
+          <th>Photos</th>
+       </tr>
+
+       <tr>
+        <td class="b">1</td>
+        <td rowspan="2">AMOL</td>
+        <td>100</td>
+        <td>SINHGAC INSTITYUTE</td>   
+        <td><img src="../UI/img/Icon/Iq_1.png" alt="img1"></td>   
+        
+       </tr>
+
+       <tr>
+        <td class="b">1</td>
+        <!-- <td>AMOL</td> -->
+        <td>100</td>
+        <td>SINHGAC INSTITYUTE</td>   
+        <td><img src="../UI/img/Icon/Iq_1.png" alt="img1"></td>   
+       </tr>
+
+       <tr>
+        <td class="b">1</td>
+        <td>AMOL</td>
+        <td>100</td>
+        <td>SINHGAC INSTITYUTE</td> 
+        <td><img src="../UI/img/Icon/Iq_1.png" alt="img1"></td>     
+       </tr>
+
+       <tr>
+        <td class="b">1</td>
+        <td>Amol</td>
+        <td>100</td>
+        <td>SINHGAC INSTITYUTE</td>   
+        <td><img src="../UI/img/Icon/Iq_1.png" alt="img1"></td>   
+       </tr>
+
+       <tr>
+        <td class="b">1</td>
+        <td>AMOL</td>
+        <td>100</td>
+        <td>SINHGAC INSTITYUTE</td>   
+        <td ><img src="../UI/img/Icon/Iq_1.png" alt="img1"></td>   
+       </tr>
+    </table>
+      </center>
+    </div>
+</body>
+</html>
