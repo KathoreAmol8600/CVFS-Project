@@ -1,2 +1,2 @@
 # HTML_CSS
-this project belongs to c Programing language.
+this project belongs to Html and Css Practies Program
