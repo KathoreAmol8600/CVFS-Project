@@ -1,0 +1,84 @@
+
+body{
+    background-color: aquamarine;
+}
+
+
+.container
+{
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-areas: "first first  first"
+                          "four six second"
+                           "five third third"
+                           "five seven seven"
+                           "five eight nine";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 2fr 1fr 1fr;
+    grid-gap: 15px;
+}
+.first
+{
+    grid-area: first;
+    background-color: #dd2fb4;
+}
+.nav 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.second
+{
+    grid-area: second;
+    background-color: #dd322f;
+}
+.third
+{
+    grid-area: third;
+    background-color: #dadd2f;
+}
+.third img
+{
+    width: 100%;
+    height: 100%;
+}
+.four
+{
+    grid-area: four;
+    background-color: #2fdd2f;
+}
+.five
+{
+    grid-area: five;
+    background-color: #2fbadd;
+    /* margin: auto; */
+}
+.six
+{
+    grid-area: six;
+    background-color: #2f52dd;
+}
+.seven
+{
+    grid-area: seven;
+    background-color: #dd2fb4;
+}
+.eight
+{
+    grid-area: eight;
+    background-color: #70ef10;
+}
+.nine
+{
+    grid-area: nine;
+    background-color: #2f78dd;
+}

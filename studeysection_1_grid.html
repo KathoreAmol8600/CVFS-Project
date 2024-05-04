@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/studeysectiongrid.css"> -->
+    <style>
+        *
+        {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .contenar
+        {
+            width:80%;
+            min-height: 100%;
+            border: 2px solid black;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows:100px 100px 100px 100px 100px;
+            grid-template-areas: "item1 item1 item1 item1 item1"
+                                 "item2 item3 item4 item5 item6"
+                                 "item2 item7 item7 item7 item6"
+                                 "item2 item8 item9 item10 item6"
+                                 "item11 item11 item11 item11 item11";
+            grid-gap:5px;
+            
+        }
+        .item1
+        {
+             grid-area: item1; 
+            background-color: aqua;
+            
+        }
+        .item2
+        {
+            grid-area: item2; 
+            background-color: aquamarine;
+        }
+        .item3
+        {
+            grid-area: item3; 
+            background-color: chartreuse;
+        }
+        .item4
+        {
+            grid-area: item4; 
+            background-color: chocolate;
+        }
+        .item5
+        {
+            grid-area: item5; 
+            background-color: cornflowerblue;
+        }
+        .item6
+        {
+            grid-area: item6; 
+            background-color: crimson;
+        }
+        .item7
+        {
+            grid-area: item7; 
+            background-color: rgb(165, 63, 83);
+        }
+        .item8
+        {
+            grid-area: item8; 
+            background-color: rgb(166, 132, 139);
+        }
+        .item9
+        {
+            grid-area: item9; 
+            background-color: rgb(207, 181, 187);
+        }
+        .item10
+        {
+            grid-area: item10; 
+            background-color: rgb(218, 195, 199);
+        }
+        .item11
+        {
+            grid-area: item11; 
+            background-color: rgb(245, 243, 244);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenar">
+        <div class="item1">first</div>
+        <div class="item2">second</div>
+        <div class="item3">third</div>
+        <div class="item4">four</div>
+        <div class="item5">five</div>
+        <div class="item6">six</div>
+        <div class="item7">seven</div>
+        <div class="item8">eight</div>
+        <div class="item9">nine</div>
+        <div class="item10">ten</div>
+        <div class="item11">eleven</div>
+    </div>
+</body>
+</html>

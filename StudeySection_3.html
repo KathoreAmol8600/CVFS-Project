@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding:0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .maincontenar
+        {
+            /* border: 2px solid red; */
+            width:80%;
+            min-height: 100%;
+            /* border: 2px solid black; */
+            margin: auto;
+            padding: 20px;
+            background-color: rgb(185, 121, 37);
+        }
+        .contenar
+        {
+            background-color: antiquewhite;
+            width:100%;
+            min-height: 100%;
+            border: 2px solid black;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 350px auto;
+            grid-template-rows: 300px 100px;
+            grid-template-areas: "img1 data"
+                                 "img1 footer";
+        }
+        .img1
+        {
+            
+            grid-area: img1;
+            /* height: 400px; */
+            /* background-color: aqua; */
+            /* background-color: blueviolet; */
+            background-image: url(../UI/img/pexels-andrea-piacquadio-3807755.jpg);
+            
+        }
+        /* .img1 img
+        {
+           width: 100%;
+           height: 400px;
+           
+           
+           
+        } */
+        
+        
+        
+        .data
+        {
+            grid-area: data;
+            background-color: blueviolet;
+            
+        }
+        .footer
+        {
+            grid-area: footer;
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontenar">
+
+        <div class="contenar">
+            
+            <div class="img1">
+<!--                 
+                <img src="img/pexels-andrea-piacquadio-3807755.jpg" alt="">
+
+                
+                <h3>hello</h3> -->
+                  
+            </div>
+            
+            <div class="data">data</div>
+            <div class="footer">footer</div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior:inherit;
+    direction: ltr;
+    
+}
+.contenar
+{
+     width: 80%;
+     min-height: 50px;
+     border: 2px solid black;
+     margin: auto;
+
+}
+nav
+{
+    width: 80%;
+    min-height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+     overflow: hidden;
+}
+nav ul
+{
+    width: 100%;
+   
+    
+}
+nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 15px;
+}
+nav ul li a
+{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#section1
+{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+#section1 H2
+{
+    text-align: center;
+    padding-top: 100px;
+    color:black;
+}
+
+#section2
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(227, 227, 161);
+}
+#section2 H2
+{
+   text-align: center;
+   padding-top: 100px; 
+
+}
+
+#section3
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(196, 196, 112);
+}
+#section3 H2
+{
+   text-align: center;
+   padding-top: 100px; 
+   
+}
+
+#section4
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(169, 169, 65);
+}
+#section4 H2
+{
+   text-align: center;
+   padding-top: 100px; 
+   
+}
+
+#section5
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(196, 196, 23);
+}
+#section5 H2
+{
+   text-align: center;
+   padding-top: 100px; 
+   
+}

@@ -1,0 +1,44 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+.Contenar
+{
+  
+    width: 80%;
+    min-height: 100px;
+    border: 2px solid black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+
+  
+}
+.a1
+{
+    background-color: blueviolet;
+    grid-template-columns: auto;
+}
+.a2
+{
+    background-color: aliceblue;
+}
+.a3
+{
+    background-color:blue;
+}
+.a4
+{
+    background-color:cadetblue;
+}
+.a5
+{
+    background-color: chartreuse;
+}
+.a6
+{
+    background-color: black;
+}
+
